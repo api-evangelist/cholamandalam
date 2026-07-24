@@ -1,8 +1,25 @@
 aid: cholamandalam
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cholamandalam.png
 name: Cholamandalam
-description: 'Cholamandalam is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Cholamandalam Investment and Finance Company (Chola) is an Indian non-banking financial
+  company (NBFC) headquartered in Chennai and part of the Murugappa Group (CIN L65993TN1978PLC007576).
+  It provides lending across vehicle finance (commercial vehicles, cars, two-wheelers, three-wheelers,
+  tractors and construction equipment), home loans and loan against property, SME/MSME and business
+  loans, supply chain finance, gold loans, and consumer and personal loans through a branch network
+  across India. No public developer portal, API documentation, or SDKs were found during enrichment;
+  the company operates consumer/branch and mobile-app (Chola One) channels rather than a published
+  developer program. Group affiliates include Chola Securities and the Gaadi Bazaar vehicle marketplace.'
 url: https://raw.githubusercontent.com/api-evangelist/cholamandalam/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Financial Services
+- Lending
+- Vehicle Finance
+- Home Loans
+- NBFC
+- India
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cholamandalam-domain-security.yml
 - type: Website
   url: https://cholamandalam.com
+- type: Blog
+  url: https://www.cholamandalam.com/blog
+- type: PrivacyPolicy
+  url: https://www.cholamandalam.com/privacy-policy
+- type: Support
+  url: https://www.cholamandalam.com/contact-us
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
