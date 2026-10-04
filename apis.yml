@@ -43,7 +43,7 @@ created: '2026-07-17'
 modified: '2026-07-18'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Lending
 - Vehicle Finance
 - Home Loans
@@ -59,6 +59,7 @@ tags_raw:
 - NBFC
 - India
 - Fintech
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
